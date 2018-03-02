@@ -7,6 +7,9 @@ import 'firebase/firestore'
 
 import users from './users'
 import conversations from './conversations'
+import contracts from './contracts'
+import investors from './investors'
+import investments from './investments'
 
 import config from '../config'
 
@@ -21,7 +24,6 @@ const state = {
 export default new Vuex.Store({
 	state,
 	modules: {
-		users,
-		conversations
+		investments
 	}
 })

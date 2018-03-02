@@ -1,12 +1,12 @@
 <template>
   <div id="app">
 		<InitializeData />
-		<ConversationContainer 
+		<!-- <ConversationContainer 
 			v-for="id in convoIds"
 			:conversation="conversations[id]"
 	 		:id="id"
 	 		:key="id"
-		/>
+		/> -->
   </div>
 </template>
 
