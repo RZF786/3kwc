@@ -13,7 +13,7 @@
 			init () {
 				// this.$store.dispatch('users/seed')	
 				// this.$store.dispatch('conversations/seed')
-				this.$store.dispatch('investments/seed')
+				this.$store.dispatch('investors/seed')
 				// this.$store.dispatch('contracts/seed')
 			},
 
@@ -21,7 +21,7 @@
 				// this.$store.dispatch('users/get')
 				// this.$store.dispatch('conversations/get')
 				// this.$store.dispatch('contracts/get')
-				this.$store.dispatch('investments/get')
+				this.$store.dispatch('investors/get')
 			}
 		}
   }
