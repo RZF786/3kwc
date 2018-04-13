@@ -35,7 +35,7 @@ const actions = {
 	// },
 	
 	seed ({ rootState }) {
-		let investorRef = rootState.db.collection('investors')
+		let investorRef = rootState.db.collection('Cheques')
 
 		investors.forEach(function (el) {
 			investorRef.add(el)
